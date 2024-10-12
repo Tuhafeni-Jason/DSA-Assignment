@@ -18,7 +18,7 @@ How It Works
 The application is built in Java and utilizes an ArrayList to store contacts. Each contact is represented by a Contact class, which contains a name and a phone number.
 Main Operations:
 
-    Insert Contact: A new contact is added to the ArrayList.
+ Insert Contact: A new contact is added to the ArrayList.
     Search Contact: The application performs a linear search through the list to find a contact by name.
     Display All Contacts: It loops through the ArrayList and prints out the details of each contact.
     Delete Contact: The application searches for the contact by name and removes it from the list if found.

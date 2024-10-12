@@ -1,29 +1,22 @@
-DSA ASsignment
-# Phonebook Application
+Phonebook Application
+Project Overview
 
-## Project Overview
-This project is a mobile phonebook application implemented using Java and SQL for persistent storage. Contacts are temporarily stored in an `ArrayList`, and operations such as inserting, searching, deleting, and updating contacts are supported.
+This project is a Phonebook Application implemented in Java using an ArrayList as the underlying data structure. The application allows users to perform basic phonebook operations such as inserting, searching, deleting, updating, and sorting contacts.
 
-## Features
-- Insert contact
-- Search contact
-- Display all contacts
-- Delete contact
-- Update contact
-- Sort contacts (optional)
-- Sync between ArrayList and SQL database
+Features
 
-How It Works
-
-The application is built in Java and utilizes an ArrayList to store contacts. Each contact is represented by a Contact class, which contains a name and a phone number.
-Main Operations:
-
- Insert Contact: A new contact is added to the ArrayList.
-    Search Contact: The application performs a linear search through the list to find a contact by name.
-    Display All Contacts: It loops through the ArrayList and prints out the details of each contact.
-    Delete Contact: The application searches for the contact by name and removes it from the list if found.
-    Update Contact: The application searches for the contact and updates its phone number.
-    Sort Contacts: Contacts are sorted alphabetically using Java's Collections.sort() method, which internally uses the Timsort algorithm (O(n log n)).
+    Insert Contact:
+        Allows users to add a new contact to the phonebook.
+    Search Contact:
+        Allows users to search for a contact by name and view the associated phone number.
+    Display All Contacts:
+        Displays all contacts stored in the phonebook.
+    Delete Contact:
+        Removes a contact by name from the phonebook.
+    Update Contact:
+        Updates the phone number of an existing contact.
+    Sort Contacts (Optional):
+        Sorts contacts alphabetically
 
 Time Complexity:
 
@@ -31,13 +24,20 @@ Time Complexity:
     Search, Delete, Update: O(n) – A linear search is performed to find a contact.
     Sort: O(n log n) – Sorting uses Java's built-in sorting algorithm.
 
-## Group Members & Contributions
-- Jason: Implemented the ArrayList and SQL integration.
-- John: Handled search, delete, and update operations.
-- Johannes: Created documentation and flowcharts.
-- : Managed GitHub repository and project presentation.
+Group Members
 
-## How to Run the Project
-1. Clone the repository.
-2. Set up a MySQL database and run the provided SQL script.
-3. Run the Java files.
+    Jason Kashimbode - 224012320
+    Johanes Amunyela - 224014129
+    [Name 3] - Student ID: XXXXX
+    [Name 4] - Student ID: XXXXX
+    [Name 5] - Student ID: XXXXX    
+    
+Contributions
+
+    Jason : Lead developer, worked on search and delete functionalities.
+    Johaness A : Worked on insert and update functionalities.
+    [Name 3]: Worked on sorting and display features.
+    [Name 4]: Documentation and pseudocode.
+    [Name 5]: Testing and debugging.
+
+       

@@ -13,11 +13,23 @@ This project is a mobile phonebook application implemented using Java and SQL fo
 - Sort contacts (optional)
 - Sync between ArrayList and SQL database
 
-## Data Structure
-We used an `ArrayList` for contact storage and synchronization with a MySQL database for long-term storage.
+How It Works
 
-## SQL Integration
-The application uses SQL to permanently store contacts. The database structure includes a `Contacts` table with fields for contact name and phone number.
+The application is built in Java and utilizes an ArrayList to store contacts. Each contact is represented by a Contact class, which contains a name and a phone number.
+Main Operations:
+
+    Insert Contact: A new contact is added to the ArrayList.
+    Search Contact: The application performs a linear search through the list to find a contact by name.
+    Display All Contacts: It loops through the ArrayList and prints out the details of each contact.
+    Delete Contact: The application searches for the contact by name and removes it from the list if found.
+    Update Contact: The application searches for the contact and updates its phone number.
+    Sort Contacts: Contacts are sorted alphabetically using Java's Collections.sort() method, which internally uses the Timsort algorithm (O(n log n)).
+
+Time Complexity:
+
+    Insert: O(1) – Contacts are appended to the ArrayList.
+    Search, Delete, Update: O(n) – A linear search is performed to find a contact.
+    Sort: O(n log n) – Sorting uses Java's built-in sorting algorithm.
 
 ## Group Members & Contributions
 - Jason: Implemented the ArrayList and SQL integration.

@@ -28,16 +28,16 @@ Group Members
 
     Jason Kashimbode - 224012320
     Johanes Amunyela - 224014129
-    [Name 3] - Student ID: XXXXX
-    [Name 4] - Student ID: XXXXX
-    [Name 5] - Student ID: XXXXX    
+    Johannes Nuuyuni - 224085441
+    Wilhem Hatutale - 223123722
+    [Name 5] - 224089633   
     
 Contributions
 
-    Jason : Lead developer, worked on search and delete functionalities.
-    Johaness A : Worked on insert and update functionalities.
-    [Name 3]: Worked on sorting and display features.
-    [Name 4]: Documentation and pseudocode.
-    [Name 5]: Testing and debugging.
+    Jason : Lead developer, testing and debugging.
+    Johaness Amunyela : Worked on insert and update functionalities.
+    Johannes Nuuyuni : Worked on sorting and display features.
+    Wilhelm : Documentation and pseudocode.
+    Juno Iimene : worked on search and delete functionalities.
 
        

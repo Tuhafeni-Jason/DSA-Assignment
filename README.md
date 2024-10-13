@@ -3,6 +3,10 @@ Project Overview
 
 This project is a Phonebook Application implemented in Java using an ArrayList as the underlying data structure. The application allows users to perform basic phonebook operations such as inserting, searching, deleting, updating, and sorting contacts.
 
+Pseudocode and Flowchart
+
+The pseudocode and flowchart to this assignment can be found in the phonebook.pdf document.
+
 Features
 
     Insert Contact:

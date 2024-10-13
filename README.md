@@ -28,6 +28,14 @@ Time Complexity:
     Search, Delete, Update: O(n) – A linear search is performed to find a contact.
     Sort: O(n log n) – Sorting uses Java's built-in sorting algorithm.
 
+How to Run the application 
+
+    Clone the repository to your local machine 
+
+    Open the project in an IDE.
+
+    Run the PhonebookApp.java file to start the application.
+
 Group Members
 
     Jason Kashimbode - 224012320

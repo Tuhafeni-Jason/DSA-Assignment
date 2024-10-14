@@ -42,7 +42,7 @@ Group Members
     Johanes Amunyela - 224014129
     Johannes Nuuyuni - 224085441
     Wilhem Hatutale - 223123722
-    [Name 5] - 224089633   
+    Juno Iimene - 224089633   
     
 Contributions
 
